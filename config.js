@@ -7,8 +7,8 @@ export default async function handler(req, res) {
     const { action, user, pass, apiKey, apiUrl, model, systemPrompt } = req.body;
 
     // Validasi kredensial admin (hardcoded di server, tidak terlihat di frontend)
-    const ADMIN_USER = "52aj7wh2hw772@Z";
-    const ADMIN_PASS = "j6&gwggu6&ih-#$+8)! +9388#+-6#7+-3--67$777$7$7$7$7uwiuhhs@@@####uwiwiwiiw";
+    const ADMIN_USER = "@Z";
+    const ADMIN_PASS = "j6&gwggu6&7$7$7$7uwiuhhs@@@####uwiwiwiiw";
 
     if (action === 'login') {
         if (user === ADMIN_USER && pass === ADMIN_PASS) {
